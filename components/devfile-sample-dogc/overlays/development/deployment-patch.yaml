@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dogc
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0080-tenant/ci10t-786-0080-app/devfile-sample-dogc@sha256:d0dd7bca9404bcaa8626fcb261b0e4002558d4e6e4b8243295affb6b433c7bbd
+        name: my-nodejs
+        resources: {}
+status: {}
