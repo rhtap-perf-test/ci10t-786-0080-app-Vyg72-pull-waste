@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-dogc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/stonesoup_perfscale/ci10t-786-0080-tenant/ci10t-786-0080-app/devfile-sample-dogc@sha256:d0dd7bca9404bcaa8626fcb261b0e4002558d4e6e4b8243295affb6b433c7bbd
         name: my-nodejs
         ports:
         - containerPort: 3001
